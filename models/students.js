@@ -5,9 +5,17 @@ const studentSchema = new mongoose.Schema({
     type: String,
     required: true,
     minlength: 3,
-    maxlength: 33,
+    maxlength: 35,
     trim: true
   },
+  Father's name: {
+    type: String,
+    required: true,
+    minlength: 3,
+    maxlength: 35,
+    trim: true
+  },
+  
   email: {
     type: String,
     required: true,
