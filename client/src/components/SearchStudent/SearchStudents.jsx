@@ -10,6 +10,8 @@ class SearchStudents extends Component {
     });
   }
 
+//   ****Using render mathod******
+  
   render() {
     return (
       <input
